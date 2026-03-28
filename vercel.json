@@ -1,0 +1,19 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "next build",
+  "devCommand": "next dev",
+  "installCommand": "npm install",
+  "functions": {
+    "app/api/upload/route.ts": {
+      "maxDuration": 60,
+      "memory": 1024
+    },
+    "app/api/chat/route.ts": {
+      "maxDuration": 60,
+      "memory": 512
+    },
+    "app/api/reset/route.ts": {
+      "maxDuration": 10
+    }
+  }
+}
