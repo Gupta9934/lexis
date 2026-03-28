@@ -28,10 +28,6 @@ LEXIS is not a demo. It is a production-grade RAG (Retrieval-Augmented Generatio
 
 ---
 
-## Live Demo
-
-**[→ lexis-beryl.vercel.app](lexis-beryl.vercel.app)**
-
 ---
 
 ## Feature Breakdown
